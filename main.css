@@ -1,0 +1,74 @@
+* {
+  vertical-align: top;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+}
+
+.redline {
+  margin: auto;
+  border: 2px solid red;
+  width: 80%;
+}
+
+.header {
+  background-color: rgb(245, 245, 245);
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.header div {
+  font-size: 12px;
+  margin: 3%;
+}
+
+.photos {
+  overflow: hidden;
+  zoom: 1;
+}
+
+.leftColumn {
+  width: 450px;
+  float: left;
+}
+
+.leftColumn .large {
+  width: 450px;
+  height: 275px;
+  overflow: hidden;
+}
+
+.leftColumn .double {
+  width: 450px;
+  height: 125px;
+  overflow: hidden;
+}
+
+.leftColumn .double img {
+  width: 50%;
+  float: left;
+}
+
+.rightColumn {
+  width: 300px;
+  float: left;
+}
+
+.rightColumn .first {
+  width: 300px;
+  height: 175px;
+}
+
+.rightColumn .second {
+  width: 300px;
+  height: 225px;
+}
+
+
+.whatsnew{
+    -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+}
